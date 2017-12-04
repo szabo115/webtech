@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Szabó Dániel beadandó</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+  <script src="writejson.js"></script>
+  </head>
+
+<body id="formbackground">
+
+  <nav class="sidebar" style="display:none;z-index:2;width:40%;min-width:100px" id="mySidebar">
+    <a href="index.html" onclick="hidesb()" class="sidebarsor">Maps</a>
+    <a href="#" onclick="hidesb()" class="sidebarsor">Menu 2 (Empty)</a>
+    <a href="#" onclick="hidesb()" class="sidebarsor">Menu 3 (Empty)</a>
+    <a href="#" onclick="hidesb()" class="sidebarsor">Menu 4 (Empty)</a>
+    <a href="#" onclick="hidesb()" class="sidebarsor">Menu 5 (Empty)</a>
+    <a href="javascript:void(0)" onclick="hidesb()"
+    class="sidebarsor">Close Menu</a> 
+  </nav>
+
+  <div class="felsomenubar">
+    <div class="menubardiv">
+      <div class="menubargomb" onclick="showsb()">&#9776;</div>
+      <div class="menubaradatok">Szabó Dániel ANGF2N</div>
+      <div class="menubarcim">Input Form</div>
+    </div>
+  </div>
+
+  <div class="kulsodiv">
+    <div class="formdiv">
+      <div class="kepalattszoveg">
+        <form>
+          <fieldset>
+            <legend>Form</legend>
+            First name:<br>
+            <input type="text" name="firstname"><br>
+            Last name:<br>
+            <input type="text" name="lastname"><br>
+            <fieldset>
+              <legend>Gender</legend>
+              <input type="radio" name="gender" value="male" checked> Male<br>
+              <input type="radio" name="gender" value="female"> Female<br>
+            </fieldset>
+            Age:<br>
+            <input type="number" name="age"><br>
+            City:<br>
+            <input type="text" name="city"><br>
+            Telephone:<br>
+            <input type="text" name="telephone">
+          </fieldset>
+        </form>
+      </div>
+      <div class="menubargomb" style="margin-top:150px; margin-left: 30px; color: #fff;">Submit JSON data</div>
+      <div class="menubargomb" onclick="readJSON()" style="margin-top:150px; margin-left: 30px; color: #fff;">Display JSON data</div>
+      <div class="kepalattszoveg" id="jsontable" style="margin-right: 40px; width: auto; float: right;">        
+      </div>
+    </div>
+    <hr>
+  </div>
+
+
+
+
+  <script>
+  function showsb() {
+      document.getElementById("mySidebar").style.display = "block";
+  }
+   
+  function hidesb() {
+      document.getElementById("mySidebar").style.display = "none";
+  }
+  </script>
+</body>
+</html>

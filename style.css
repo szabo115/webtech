@@ -1,0 +1,208 @@
+body,h1,h2,h3,h4,h5,h6
+{
+	font-family: "Karma", sans-serif
+}
+
+body
+{
+	background-image:url("images/bg.jpg");
+	background-size: auto 100%;
+	background-repeat: repeat;
+	height: 100%;
+	width: auto;
+}
+
+p
+{
+	text-align: justify;
+}
+
+#formbackground
+{
+	background-image:url("images/bg.jpg");
+	background-size: 1920px 1080px;
+	background-repeat: repeat;
+}
+
+.felsomenubar
+{
+	position:fixed;
+	width:100%;
+	z-index:1;
+	top:0;
+}
+
+.menubardiv
+{
+	max-width:1200px;
+	margin:auto;
+	color:#fff;
+	background-color:#000;
+	font-size:24px;
+}
+
+.menubargomb
+{
+	float:left;
+	border:none;
+	display:inline-block;
+	outline:0;
+	padding:8px 16px;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	background-color:inherit;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap;
+	padding-top:16px;
+	padding-bottom:16px;
+}
+
+.menubargomb:hover
+{
+	background-color: #032548;
+}
+
+.menubarcim
+{
+	text-align:center;
+	padding-top:16px;
+	padding-bottom:16px;
+}
+
+.menubaradatok
+{
+	font-size: 10px;
+	float:right;
+	padding-top:16px;
+	padding-bottom:16px;
+	padding-right: 16px;
+}
+
+.sidebar
+{
+	height:50%;
+	background-color:#000;
+	position:fixed;
+	z-index:1;
+	overflow:auto;
+	font-size:24px;
+}
+
+.sidebarsor
+{
+	color: #fff;
+	text-decoration:none;
+	display:block;
+	padding:8px 16px;
+	text-align:left;
+	border:none;
+	outline:none;
+	white-space:normal;
+	float:none;	
+}
+
+.sidebarsor:hover
+{
+	background-color: #032548;
+}
+
+.kulsodiv
+{
+	max-width:1200px;
+	margin-top:100px;
+	margin-left: auto;
+	margin-right: auto; 
+	padding:8px 8px;
+}
+
+.kepdiv
+{
+	background-image:url(images/divbackground.png);
+	background-repeat:no-repeat;
+    background-size:100% 100%;
+	margin-bottom:32px;
+	padding-left:32px;
+	padding-top:16px;
+	padding-bottom:32px;
+	display:inline-block;
+	width:auto;
+}
+
+.formdiv
+{
+	background-image:url(images/divbackground.png);
+	background-repeat:no-repeat;
+    background-size:100% 100%;
+	margin-bottom:32px;
+	margin: auto;
+	padding-left:32px;
+	padding-top:16px;
+	padding-bottom:32px;
+	display:inline-block;
+	max-width: 1200px;
+	width: 1170px;
+	height:445px;
+}
+
+.kepalattszoveg
+{
+	color:white;
+	margin-top: 30px;
+	margin-left: 30px;
+	float:left;
+	width:21%
+}
+
+.container
+{
+	position: relative;
+	width: 100%;
+}
+
+.kep
+{
+	border-radius: 15px 50px;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.overlayborder
+{
+	border-radius: 15px 50px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 1;
+	transition: 1s ease;
+}
+
+.container:hover .overlayborder
+{
+	opacity: 0;
+}
+
+#jsontable {
+	border-color: #fff;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#jsontable td
+{
+	solid #ddd;
+}
+
+#jsontable tr:nth-child(even)
+{
+	background-color: #032548;
+}
+
+#jsontable tr:hover
+{
+	background-color: #222;
+}

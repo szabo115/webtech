@@ -1,0 +1,42 @@
+[
+  {
+    "firstname": "Aladár",
+    "lastname": "Nagy",
+    "gender": "male",
+    "age": "35",
+    "city": "Miskolc",
+    "telephone": "06304568795"
+  },
+  {
+    "firstname": "Elemér",
+    "lastname": "Kiss",
+    "gender": "male",
+    "age": "27",
+    "city": "Eger",
+    "telephone": "06302684554"
+  },
+  {
+    "firstname": "Elemér",
+    "lastname": "Kiss",
+    "gender": "male",
+    "age": "27",
+    "city": "Eger",
+    "telephone": "06302684554"
+  },
+  {
+    "firstname": "Elemér",
+    "lastname": "Kiss",
+    "gender": "male",
+    "age": "27",
+    "city": "Eger",
+    "telephone": "06302684554"
+  },
+  {
+    "firstname": "Elemér",
+    "lastname": "Kiss",
+    "gender": "male",
+    "age": "27",
+    "city": "Eger",
+    "telephone": "06302684554"
+  }
+]
