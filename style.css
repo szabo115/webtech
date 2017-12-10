@@ -61,7 +61,7 @@ p
 
 .menubargomb:hover
 {
-	background-color: #032548;
+	background-color: #D2691E;
 }
 
 .menubarcim
@@ -82,7 +82,7 @@ p
 
 .sidebar
 {
-	height:50%;
+	height:105px;
 	background-color:#000;
 	position:fixed;
 	z-index:1;
@@ -105,7 +105,7 @@ p
 
 .sidebarsor:hover
 {
-	background-color: #032548;
+	background-color: #D2691E;
 }
 
 .kulsodiv
@@ -186,23 +186,40 @@ p
 	opacity: 0;
 }
 
-#jsontable {
+#jsontable
+{
+	text-align: center;
+	color: white;
 	border-color: #fff;
     border-collapse: collapse;
-    width: 100%;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+#jsontable th
+{
+	background-color: #5A0000;
 }
 
 #jsontable td
 {
+	border: 1px solid black;
 	solid #ddd;
 }
 
 #jsontable tr:nth-child(even)
 {
+	border: 1px solid black;
 	background-color: #032548;
+}
+
+#jsontable tr:nth-child(odd)
+{
+	border: 1px solid black;
+	background-color: #222;
 }
 
 #jsontable tr:hover
 {
-	background-color: #222;
+	background-color: #D2691E;
 }
